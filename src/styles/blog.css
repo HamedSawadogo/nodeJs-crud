@@ -1,0 +1,43 @@
+.blog-container {
+  width: 70%;
+  padding: 15px;
+  height: auto;
+  border-radius: 10pxs;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px -1px 0px 5px whitesmoke;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Inter", sans-serif;
+}
+button {
+  color: rgb(249, 224, 224);
+  border: transparent;
+  background: #333;
+  padding: 7px;
+  margin: 2px 4px;
+  font-weight: 700;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+  color: black;
+  background: rgb(249, 224, 224);
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(37, 37, 37);
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(129, 115, 97);
+}
+span {
+  margin: 5px;
+  color: rgb(100, 100, 100);
+}
+small {
+  font-style: italic;
+}

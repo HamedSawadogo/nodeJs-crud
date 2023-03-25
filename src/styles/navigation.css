@@ -1,0 +1,25 @@
+.navigation {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(249, 224, 224);
+}
+.nav {
+  color: white;
+  transition: 0.3s;
+}
+.nav-active {
+  color: white;
+  color: rgb(6, 1, 24);
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  margin: 0 20px;
+  transition: 0.3s;
+  font-family: "Inter", sans-serif;
+}
